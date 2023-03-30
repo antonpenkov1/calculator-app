@@ -13,6 +13,9 @@
 		D256960429D32A1400759787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D256960229D32A1400759787 /* Main.storyboard */; };
 		D256960629D32A1500759787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D256960529D32A1500759787 /* Assets.xcassets */; };
 		D256960929D32A1500759787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D256960729D32A1500759787 /* LaunchScreen.storyboard */; };
+		D2F4258B29D5C5420002EA39 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F4258A29D5C5420002EA39 /* CustomButton.swift */; };
+		D2F4258D29D5CE610002EA39 /* CustomEqualButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F4258C29D5CE610002EA39 /* CustomEqualButton.swift */; };
+		D2F4259029D5CEF80002EA39 /* CustomDeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F4258F29D5CEF80002EA39 /* CustomDeleteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D256960529D32A1500759787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D256960829D32A1500759787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D256960A29D32A1500759787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F4258A29D5C5420002EA39 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D2F4258C29D5CE610002EA39 /* CustomEqualButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEqualButton.swift; sourceTree = "<group>"; };
+		D2F4258F29D5CEF80002EA39 /* CustomDeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDeleteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +65,23 @@
 				D25695FC29D32A1400759787 /* AppDelegate.swift */,
 				D25695FE29D32A1400759787 /* SceneDelegate.swift */,
 				D256960029D32A1400759787 /* ViewController.swift */,
+				D2F4258E29D5CEE90002EA39 /* Buttons */,
 				D256960229D32A1400759787 /* Main.storyboard */,
 				D256960529D32A1500759787 /* Assets.xcassets */,
 				D256960729D32A1500759787 /* LaunchScreen.storyboard */,
 				D256960A29D32A1500759787 /* Info.plist */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		D2F4258E29D5CEE90002EA39 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				D2F4258A29D5C5420002EA39 /* CustomButton.swift */,
+				D2F4258C29D5CE610002EA39 /* CustomEqualButton.swift */,
+				D2F4258F29D5CEF80002EA39 /* CustomDeleteButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F4258B29D5C5420002EA39 /* CustomButton.swift in Sources */,
 				D256960129D32A1400759787 /* ViewController.swift in Sources */,
+				D2F4258D29D5CE610002EA39 /* CustomEqualButton.swift in Sources */,
+				D2F4259029D5CEF80002EA39 /* CustomDeleteButton.swift in Sources */,
 				D25695FD29D32A1400759787 /* AppDelegate.swift in Sources */,
 				D25695FF29D32A1400759787 /* SceneDelegate.swift in Sources */,
 			);
